@@ -1,0 +1,38 @@
+class money_Heist:
+    def __init__(self):
+        self.balance = 0
+        self.name = input("Enter your name: ")
+        print("Account created with balance zero")
+def credit(self):
+    amt = float(input("Enter the amount you want to credit"))
+    self.balance = self.balance + amt
+    print("Total balance in the account")
+    print(self.balance)
+def debit(self):
+    self.balance = 10000
+    amt = float(input("Enter the amount you want to debit"))
+    self.balance = self.balance - amt
+    print("Total balance in the account")
+    print(self.balance)
+    print("Debit")
+
+def profile(self):
+    self.name = input("Enter your name: ")
+    print("Account created with balance zero")
+
+
+
+s = money_Heist()
+i = 1
+while i == 1:
+    print("1.credit the amount in account")
+    print("2.debit amount in the account")
+    print("3.exit")
+    ch = int(input("Enter your choice: "))
+    if ch == 1:
+        credit(s)
+        print("Account created with balance zero")
+    elif ch == 2:
+        debit(s)
+    else:
+        print("Invalid choice")
